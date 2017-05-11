@@ -39,5 +39,5 @@ Keymatchit tallennetaan seuraavantyyppiseen xml-tiedostoon:
 ```
 
 Kyseessä on siis eräänlainen versio Solr-hakukoneen käyttämästä 
-[https://cwiki.apache.org/confluence/display/solr/The+Query+Elevation+Component](elevate.xml) 
+[elevate.xml](https://cwiki.apache.org/confluence/display/solr/The+Query+Elevation+Component) 
 -formaatista.
