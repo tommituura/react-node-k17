@@ -42,3 +42,9 @@ Kyseessä on siis eräänlainen versio Solr-hakukoneen käyttämästä
 [elevate.xml](https://cwiki.apache.org/confluence/display/solr/The+Query+Elevation+Component) 
 -formaatista. (Excludea emme toteuta tässä vaiheessa, ja ylimääräinen title-attribuutti on jo 
 käytössä todettu toimivaksi.)
+
+### Kehitys- ja testiympäristö
+
+* Vagrantilla ja virtualboxilla toteutettu Centos 6. Tämä versio siksi että todennäköisesti
+ohjelman olisi tultava toimeen RHEL 6 -ympäristössä.
+
