@@ -40,4 +40,5 @@ Keymatchit tallennetaan seuraavantyyppiseen xml-tiedostoon:
 
 Kyseessä on siis eräänlainen versio Solr-hakukoneen käyttämästä 
 [elevate.xml](https://cwiki.apache.org/confluence/display/solr/The+Query+Elevation+Component) 
--formaatista.
+-formaatista. (Excludea emme toteuta tässä vaiheessa, ja ylimääräinen title-attribuutti on jo 
+käytössä todettu toimivaksi.)
