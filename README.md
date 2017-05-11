@@ -48,3 +48,10 @@ käytössä todettu toimivaksi.)
 * Vagrantilla ja virtualboxilla toteutettu Centos 6. Tämä versio siksi että todennäköisesti
 ohjelman olisi tultava toimeen RHEL 6 -ympäristössä.
 
+### 
+
+Vaatimukset:
+
+* Vagrant
+* Virtualbox
+* Ansible (>= 2.0)
