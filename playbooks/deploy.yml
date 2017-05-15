@@ -7,6 +7,8 @@
     ansistrano_keep_releases: 3
     # There seems to be an issue with rsync in vagrant
     ansistrano_deploy_via: copy
+    # Sorry, no stats sending.
+    ansistrano_allow_anonymous_stats: no
   become: true
   become_user: vagrant 
   roles:
