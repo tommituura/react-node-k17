@@ -23,5 +23,8 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     yum update -y
+    curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+    yum install nodejs
+    yum install libselinux-python -y
   SHELL
 end
