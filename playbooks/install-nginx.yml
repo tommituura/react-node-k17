@@ -1,0 +1,7 @@
+--- 
+- name: Install nginx web server
+  hosts: all
+  become: true
+  become_user: vagrant
+
+  

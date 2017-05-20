@@ -1,0 +1,7 @@
+--- 
+- name: Install pm2 nodejs app manager
+  hosts: all
+  become: true
+  become_user: vagrant
+
+  
