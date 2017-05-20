@@ -1,0 +1,10 @@
+--- 
+- name: Install mongodb using the galaxy role
+  hosts: all
+  vars:
+    mongodb_version: "3.4"
+  become: yes
+  become_user: vagrant
+
+  roles:
+    - { role: lesmyrmidons.mongodb }

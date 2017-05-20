@@ -9,7 +9,7 @@
     ansistrano_deploy_via: copy
     # Sorry, no stats sending.
     ansistrano_allow_anonymous_stats: no
-  become: true
-  become_user: vagrant 
+  become: yes
+  become_user: root
   roles:
     - { role: carlosbuenosvinos.ansistrano-deploy }
